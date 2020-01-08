@@ -1,2 +1,1 @@
-1610spring2020Dillan
-I love scripting 
+I am a nerd
