@@ -9,3 +9,4 @@ THe girls call him cute
 turns out we only need 10, so much for the song
 Yeetus
 Weather log january ninth: very sunny and also cold
+weather log the tenth it was cold again, big surprise
