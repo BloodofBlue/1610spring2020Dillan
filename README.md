@@ -10,3 +10,4 @@ turns out we only need 10, so much for the song
 Yeetus
 Weather log january ninth: very sunny and also cold
 weather log the tenth it was cold again, big surprise
+Oh boy another weather log, it was very cold as always and i think it might have snowed a bit
