@@ -7,7 +7,7 @@ public class PlayerMovementControl : MonoBehaviour
     private Vector3 positionDirection;
     public float characterSpeed = 5f;
     public float gravity = -1f;
-    public float jumpForce = 20f;
+    public float jumpForce = 15f;
     void Start()
     {
         

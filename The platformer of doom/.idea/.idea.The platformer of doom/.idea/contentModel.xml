@@ -7,6 +7,9 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
+          <e p="CameraDirection.cs" t="Include" />
+          <e p="ItemPickup.cs" t="Include" />
+          <e p="MadeItToTheEnd.cs" t="Include" />
           <e p="New Folder" t="Include">
             <e p="CubeColor.cs" t="Include" />
             <e p="MouseEvents.cs" t="Include" />
