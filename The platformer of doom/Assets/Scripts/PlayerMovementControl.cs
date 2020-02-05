@@ -1,13 +1,13 @@
 ﻿using UnityEngine;
 using Vector3 = UnityEngine.Vector3;
 
-public class CharacterMovement : MonoBehaviour
+public class PlayerMovementControl : MonoBehaviour
 {
     public CharacterController controller;
     private Vector3 positionDirection;
     public float characterSpeed = 5f;
-    public float gravity = -3f;
-    public float jumpForce = 10f;
+    public float gravity = -1f;
+    public float jumpForce = 20f;
     void Start()
     {
         
