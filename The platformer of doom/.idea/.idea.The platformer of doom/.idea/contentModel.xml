@@ -8,6 +8,7 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="CameraDirection.cs" t="Include" />
+          <e p="CameraLockedOn.cs" t="Include" />
           <e p="ItemPickup.cs" t="Include" />
           <e p="MadeItToTheEnd.cs" t="Include" />
           <e p="New Folder" t="Include">
@@ -20,6 +21,7 @@
             <e p="TriggeringEvents.cs" t="Include" />
           </e>
           <e p="PlayerMovementControl.cs" t="Include" />
+          <e p="TwoDimensionalPLayerMovement.cs" t="Include" />
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />
