@@ -1,16 +1,17 @@
 ﻿using UnityEngine;
 using Vector3 = UnityEngine.Vector3;
 
+[RequireComponent(typeof(CharacterController))]
 public class TwoDimensionalPLayerMovement : MonoBehaviour
 {
-    public CharacterController controller;
+    private CharacterController controller;
     private Vector3 positionDirection;
     public float characterSpeed = 5f;
     public float gravity = -1f;
     public float jumpForce = 15f;
     void Start()
     {
-        
+        controller = GetComponent<CharacterController>();
 
     }
     void Update()
