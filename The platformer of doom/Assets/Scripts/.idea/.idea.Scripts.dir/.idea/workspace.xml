@@ -11,12 +11,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/movecopyforpractice.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CameraLockedOn.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/movecopyforpractice.cs" />
+        <option value="$PROJECT_DIR$/PracticeScript.cs" />
       </list>
     </option>
   </component>
@@ -30,6 +31,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -41,24 +43,33 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582006869271</updated>
-      <workItem from="1582006917447" duration="951000" />
+      <workItem from="1582006917447" duration="1542000" />
+      <workItem from="1582053080173" duration="3670000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="372" y="167" key="SettingsEditor" timestamp="1582056592395">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="372" y="167" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582056592395" />
   </component>
 </project>
