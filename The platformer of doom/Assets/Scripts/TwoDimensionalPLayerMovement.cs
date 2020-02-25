@@ -17,6 +17,11 @@ public class TwoDimensionalPLayerMovement : MonoBehaviour
     void Update()
     {
         positionDirection.x = Input.GetAxis("Horizontal")*characterSpeed;
+        
+        if (controller.isGrounded)
+        {
+            positionDirection.y = 0;
+        }
 
         if (Input.GetButtonDown("Jump") && controller.isGrounded)
         {
@@ -26,6 +31,7 @@ public class TwoDimensionalPLayerMovement : MonoBehaviour
         positionDirection.y += gravity;
         
         controller.Move(positionDirection*Time.deltaTime);
+
 
     }
 
