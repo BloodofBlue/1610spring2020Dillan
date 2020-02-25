@@ -22,8 +22,11 @@
             <e p="TriggerEvents.cs" t="Include" />
             <e p="TriggeringEvents.cs" t="Include" />
           </e>
+          <e p="PlayerFellBehavior.cs" t="Include" />
           <e p="PlayerMovementControl.cs" t="Include" />
           <e p="RigidBodyForces.cs" t="Include" />
+          <e p="SetBaseValues.cs" t="Include" />
+          <e p="TextBehavior.cs" t="Include" />
           <e p="TwoDimensionalPLayerMovement.cs" t="Include" />
         </e>
       </e>
