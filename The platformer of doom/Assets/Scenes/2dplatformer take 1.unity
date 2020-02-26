@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 107590861}
   - component: {fileID: 107590860}
   m_Layer: 0
-  m_Name: Cube (3)
+  m_Name: platform 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -226,7 +226,7 @@ GameObject:
   - component: {fileID: 254815724}
   - component: {fileID: 254815723}
   m_Layer: 0
-  m_Name: Sphere (2)
+  m_Name: Health pickup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -299,7 +299,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 37a537f79344ba04f8ca28625cd19e50, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -464,8 +464,9 @@ GameObject:
   - component: {fileID: 507956088}
   - component: {fileID: 507956087}
   - component: {fileID: 507956086}
+  - component: {fileID: 507956090}
   m_Layer: 0
-  m_Name: Cube (4)
+  m_Name: Deathzone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -544,6 +545,43 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &507956090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 507956085}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b175079dad71f154f859953825761f03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerGotDead:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 485db94ca9ba32e40851d5ad13331282, type: 2}
+        m_MethodName: ChangeValue
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: -0.1
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1645543320}
+        m_MethodName: BroadcastMessage
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &649460952
 GameObject:
   m_ObjectHideFlags: 0
@@ -659,7 +697,7 @@ GameObject:
   - component: {fileID: 857394253}
   - component: {fileID: 857394252}
   m_Layer: 0
-  m_Name: Sphere (3)
+  m_Name: ammo pickup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -732,7 +770,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 15bb7a85879e1be4dbd04fff17ea24f7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -789,7 +827,7 @@ GameObject:
   - component: {fileID: 1067974980}
   - component: {fileID: 1067974979}
   m_Layer: 0
-  m_Name: Sphere (1)
+  m_Name: score pickup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -862,7 +900,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 88995a04e07fa83439d75d121f3f3018, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1150,7 +1188,7 @@ GameObject:
   - component: {fileID: 1209112832}
   - component: {fileID: 1209112831}
   m_Layer: 0
-  m_Name: Cube (2)
+  m_Name: platform 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1242,7 +1280,7 @@ GameObject:
   - component: {fileID: 1300196706}
   - component: {fileID: 1300196705}
   m_Layer: 0
-  m_Name: Cube (1)
+  m_Name: platform 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1459,7 +1497,7 @@ GameObject:
   - component: {fileID: 1645543316}
   - component: {fileID: 1645543321}
   m_Layer: 0
-  m_Name: Capsule
+  m_Name: player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
