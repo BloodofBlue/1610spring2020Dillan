@@ -12,4 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbbac8c4831291b468557f034cedccd3, type: 3}
   m_Name: Health
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   value: 0.3
+=======
+  value: 0.1
+>>>>>>> Stashed changes

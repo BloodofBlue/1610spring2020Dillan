@@ -6,6 +6,10 @@ public class ImageBehavior : MonoBehaviour
 {
     private Image imageObj;
     public FloatData dataObj;
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
     private void Start()
     {
         imageObj = GetComponent<Image>();

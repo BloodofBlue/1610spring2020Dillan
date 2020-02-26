@@ -25,7 +25,10 @@
           <e p="PlayerFellBehavior.cs" t="Include" />
           <e p="PlayerMovementControl.cs" t="Include" />
           <e p="RigidBodyForces.cs" t="Include" />
+<<<<<<< Updated upstream
           <e p="SetBaseValues.cs" t="Include" />
+=======
+>>>>>>> Stashed changes
           <e p="TextBehavior.cs" t="Include" />
           <e p="TwoDimensionalPLayerMovement.cs" t="Include" />
         </e>

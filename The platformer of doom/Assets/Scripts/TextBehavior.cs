@@ -5,6 +5,10 @@ using UnityEngine.UI;
 public class TextBehavior : MonoBehaviour
 {
     private Text textObj;
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
     public IntData dataObj;
     void Start()
     {
