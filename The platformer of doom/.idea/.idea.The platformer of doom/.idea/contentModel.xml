@@ -19,6 +19,8 @@
             <e p="CubeColor.cs" t="Include" />
             <e p="MouseEvents.cs" t="Include" />
             <e p="NewerClass.cs" t="Include" />
+            <e p="PracticeScript.cs" t="Include" />
+            <e p="PracticeScriptTrashMeLater.cs" t="Include" />
             <e p="TriggerEvents.cs" t="Include" />
             <e p="TriggeringEvents.cs" t="Include" />
           </e>
