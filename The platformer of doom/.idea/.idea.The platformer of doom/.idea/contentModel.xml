@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\imadg\.Rider2019.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\imadg\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_The platformer of doom.973085653.00" t="ExcludeRecursive" />
-    <e p="C:\Users\imadg\Documents\Git repos\1610spring2020Dillan\The platformer of doom" t="IncludeRecursive">
+    <e p="C:\Users\imadg\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_The platformer of doom.-493499251.00" t="ExcludeRecursive" />
+    <e p="C:\Users\imadg\Documents\gitrepos\1610spring2020Dillan\The platformer of doom" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
@@ -27,12 +27,11 @@
           <e p="PlayerFellBehavior.cs" t="Include" />
           <e p="PlayerMovementControl.cs" t="Include" />
           <e p="RigidBodyForces.cs" t="Include" />
-<<<<<<< Updated upstream
           <e p="SetBaseValues.cs" t="Include" />
-=======
->>>>>>> Stashed changes
+          <e p="StringData.cs" t="Include" />
           <e p="TextBehavior.cs" t="Include" />
           <e p="TwoDimensionalPLayerMovement.cs" t="Include" />
+          <e p="Vector3Data.cs" t="Include" />
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />
