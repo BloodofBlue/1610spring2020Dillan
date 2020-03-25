@@ -13,16 +13,15 @@
           <e p="FloatData.cs" t="Include" />
           <e p="IfStatements.cs" t="Include" />
           <e p="ImageBehavior.cs" t="Include" />
+          <e p="ImageBehaviorborked.cs" t="Include" />
           <e p="IntData.cs" t="Include" />
           <e p="ItemPickup.cs" t="Include" />
           <e p="MadeItToTheEnd.cs" t="Include" />
+          <e p="NavBehavior.cs" t="Include" />
           <e p="New Folder" t="Include">
             <e p="CubeColor.cs" t="Include" />
             <e p="MouseEvents.cs" t="Include" />
             <e p="NewerClass.cs" t="Include" />
-            <e p="PracticeScript.cs" t="Include" />
-            <e p="PracticeScriptTrashMeLater.cs" t="Include" />
-            <e p="ScreeDeedleDitchMe.cs" t="Include" />
             <e p="TriggerEvents.cs" t="Include" />
             <e p="TriggeringEvents.cs" t="Include" />
           </e>
@@ -31,7 +30,7 @@
           <e p="RigidBodyForces.cs" t="Include" />
           <e p="SetBaseValues.cs" t="Include" />
           <e p="StringData.cs" t="Include" />
-          <e p="TextBehavior.cs" t="Include" />
+          <e p="TextBehaviour.cs" t="Include" />
           <e p="TwoDimensionalPLayerMovement.cs" t="Include" />
           <e p="Vector3Data.cs" t="Include" />
         </e>

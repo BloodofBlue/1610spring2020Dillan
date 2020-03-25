@@ -1,15 +1,17 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 using UnityEngine.UI;
 
 [RequireComponent(typeof(Text))]
-public class TextBehavior : MonoBehaviour
+public class TextBehaviour : MonoBehaviour
 {
     private Text textObj;
-<<<<<<< Updated upstream
-=======
 
->>>>>>> Stashed changes
     public IntData dataObj;
+    
+    
+    // Start is called before the first frame update
     void Start()
     {
         textObj = GetComponent<Text>();
