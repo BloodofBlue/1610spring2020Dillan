@@ -1,9 +1,11 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 using Vector3 = UnityEngine.Vector3;
 
 [RequireComponent(typeof(CharacterController))]
-public class TwoDimensionalPLayerMovement : MonoBehaviour
-{
+public class DeleteMe : MonoBehaviour
+{ 
     private CharacterController controller;
     private Vector3 positionDirection;
     public float characterSpeed = 5f;
