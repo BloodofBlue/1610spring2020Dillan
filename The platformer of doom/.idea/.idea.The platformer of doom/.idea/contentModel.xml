@@ -19,6 +19,7 @@
           <e p="NavBehavior.cs" t="Include" />
           <e p="New Folder" t="Include">
             <e p="CubeColor.cs" t="Include" />
+            <e p="IScreamForIAmIdealess.cs" t="Include" />
             <e p="MouseEvents.cs" t="Include" />
             <e p="NewerClass.cs" t="Include" />
             <e p="TriggerEvents.cs" t="Include" />
