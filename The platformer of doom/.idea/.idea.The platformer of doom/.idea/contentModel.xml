@@ -10,6 +10,7 @@
           <e p="CameraDirection.cs" t="Include" />
           <e p="CameraLockedOn.cs" t="Include" />
           <e p="DeleteMe.cs" t="Include" />
+          <e p="DeleteMe1.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
           <e p="IfStatements.cs" t="Include" />
           <e p="ImageBehavior.cs" t="Include" />

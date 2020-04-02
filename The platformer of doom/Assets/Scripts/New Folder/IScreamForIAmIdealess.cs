@@ -1,27 +1,28 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.Events;
 
-public class IScreamForIAmIdealess : MonoBehaviour
+namespace New_Folder
 {
-    public UnityEvent mouseDownEvent;
-    public UnityEvent mouseUpEvent;
-    public UnityEvent mouseDragEvent;
-    public UnityEvent mouseOverEvent;
-    private void OnMouseExit()
+    public class IScreamForIAmIdealess : MonoBehaviour
     {
-        GetComponent<Renderer>().material.color = Color.magenta
-    }
+        public UnityEvent mouseDownEvent;
+        public UnityEvent mouseUpEvent;
+        public UnityEvent mouseDragEvent;
+        public UnityEvent mouseOverEvent;
+        private void OnMouseExit()
+        {
+            GetComponent<Renderer>().material.color = Color.magenta;
+        }
 
-    private void OnMouseEnter()
-    {
-        print("screeee");
-    }
+        private void OnMouseEnter()
+        {
+            print("screeee");
+        }
 
-    private void OnMouseOver()
-    {
-        mouseOverEvent.Invoke();
-        transform.Rotate(Vector3.left);
+        private void OnMouseOver()
+        {
+            mouseOverEvent.Invoke();
+            transform.Rotate(Vector3.left);
+        }
     }
 }
