@@ -1,9 +1,7 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UIElements;
+﻿using UnityEngine;
 
-public class Vector3Data : MonoBehaviour
+[CreateAssetMenu]
+public class Vector3Data : ScriptableObject
 {
     public Vector3 value;
 
