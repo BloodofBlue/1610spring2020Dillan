@@ -11,6 +11,7 @@
           <e p="CameraLockedOn.cs" t="Include" />
           <e p="CubeColor.cs" t="Include" />
           <e p="Debugger.cs" t="Include" />
+          <e p="DoorController.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
           <e p="IfStatements.cs" t="Include" />
           <e p="ImageBehavior.cs" t="Include" />
@@ -19,7 +20,9 @@
           <e p="MadeItToTheEnd.cs" t="Include" />
           <e p="NavBehavior.cs" t="Include" />
           <e p="PlayerStats.cs" t="Include" />
+          <e p="ProgressTracker.cs" t="Include" />
           <e p="RigidBodyForces.cs" t="Include" />
+          <e p="StartEvent.cs" t="Include" />
           <e p="StringData.cs" t="Include" />
           <e p="Teleport.cs" t="Include" />
           <e p="TextBehaviour.cs" t="Include" />

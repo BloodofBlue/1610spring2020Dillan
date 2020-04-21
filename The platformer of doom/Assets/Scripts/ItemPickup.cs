@@ -10,5 +10,6 @@ public class ItemPickup : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         getPickedUp.Invoke();
+        
     }
 }
