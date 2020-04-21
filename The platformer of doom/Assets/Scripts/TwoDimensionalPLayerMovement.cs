@@ -8,7 +8,7 @@ public class TwoDimensionalPLayerMovement : MonoBehaviour
     private Vector3 positionDirection;
     public float characterSpeed = 5f;
     public float gravity = -1f;
-    public float jumpForce = 15f;
+    public FloatData jumpForce;
     void Start()
     {
         controller = GetComponent<CharacterController>();
@@ -25,7 +25,7 @@ public class TwoDimensionalPLayerMovement : MonoBehaviour
 
         if (Input.GetButtonDown("Jump") && controller.isGrounded)
         {
-            positionDirection.y = jumpForce;
+            positionDirection.y = jumpForce.value;
         }
         
         positionDirection.y += gravity;
