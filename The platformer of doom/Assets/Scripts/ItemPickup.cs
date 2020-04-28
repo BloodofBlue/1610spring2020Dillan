@@ -8,11 +8,11 @@ public class ItemPickup : MonoBehaviour
 {
     public UnityEvent getPickedUp;
     public UnityEvent effectRemove;
-    public FloatData powerupTime;
+    public float powerupTime;
 
     IEnumerator Wait()
     {
-        yield return new WaitForSeconds(powerupTime.value);
+        yield return new WaitForSeconds(powerupTime);
         effectRemove.Invoke();
     }
     
